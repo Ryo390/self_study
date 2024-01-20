@@ -1,0 +1,92 @@
+/* ---　ヘッダー　--- */
+.header {
+  background-color: #DBDBDB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.main_header {
+  font-size: 36px;
+  font-weight: 600;
+  margin-left: 30px;
+}
+
+.sub_header {
+  display: flex;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.middle_header {
+  margin-left: 70px;
+}
+
+.right_header {
+  margin:0 100px 0 70px;
+}
+
+/* ---　メイン　--- */
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 700px;
+  width: 100vw;
+}
+
+.heroimage {
+  width: 100vw;
+  height: 700px;
+  object-fit: cover;
+  opacity: 30%;
+  position: relative;
+}
+.box {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main_title {
+  font-size: 70px;
+  font-weight: 600;
+  margin-left: 60px ;
+  padding-bottom: 10px;
+}
+
+.sub_title {
+  font-size: 18px;
+  margin-left: 60px;
+}
+
+.right_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 250px;
+  background-color: #959393;
+  margin-right: 60px;
+  border-radius: 10px;
+}
+
+.link_title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* ---　フッダー　--- */
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.footer_message{
+  font-size: 16px;
+  color: #959393;
+}
