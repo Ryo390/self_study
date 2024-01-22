@@ -12,6 +12,8 @@
   font-size: 36px;
   font-weight: 600;
   margin-left: 30px;
+  color:black;
+  text-decoration: none;
 }
 
 .sub_header {
@@ -22,10 +24,19 @@
 
 .middle_header {
   margin-left: 70px;
+  color:black;
+  text-decoration: none;
 }
 
 .right_header {
   margin:0 100px 0 70px;
+  color:black;
+  text-decoration: none;
+}
+
+.left_header {
+  color:black;
+  text-decoration: none;
 }
 
 /* ---　メイン　--- */
@@ -95,27 +106,27 @@ footer{
 /* ーーサービスページーー */
 /* ---　メイン　--- */
 
-.servise_main {
+.service_main {
   width: 100vw;
 }
 
-.servise_box_top_p {
+.service_box_top_p {
   display: flex;
   justify-content: center;
 }
 
-.servise_box_top {
+.service_box_top {
   font-size: 64px;
   font-weight: 600;
   margin-top: 50px;
 }
 
-.servise_box_bottom_p {
+.service_box_bottom_p {
   display: flex;
   justify-content: center;
 }
 
-.servise_box_bottom {
+.service_box_bottom {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 160px;

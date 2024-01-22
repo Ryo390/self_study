@@ -12,9 +12,9 @@
 
   <body>    
     <header class="header">
-      <div class = "main_header">App First</div>
+      <%= link_to "App First", root_path, class: "main_header" %>
       <div class = "sub_header">
-        <div class ="left_header">SERVICE</div>
+      <%= link_to "SERVICE", service_path, class: "left_header"%>
         <div class ="middle_header">NEWS</div>
         <div class ="right_header">CONTACT</div>
       </div>
@@ -24,4 +24,4 @@
       <div class ="footer_message">Copyright©️2022 TECHCAMP</div>
     </footer>
   </body>
-</html>
+</html>.
