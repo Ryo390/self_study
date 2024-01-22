@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>APP FIRST</title>
+    <%=stylesheet_link_tag("application.css")%>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class ="servise_main">
+      <div class ="servise_box">
+        <div class ="servise_box_top_p">
+          <div class ="servise_box_top">SERVICE</div>
+        </div>
+        <div class ="servise_box_bottom_p">
+          <div class ="servise_box_bottom">サービス内容</div>
+        </div>
+      </div>
+
+      <div class ="photo_box">
+        <div class ="photos">
+          <div class ="photos_left_p">
+            <%=image_tag "design.jpeg", class:"photos_image"%>
+            <div class ="photos_list">
+              <span class ="photo_text_title">仕事の作成・計画</span><br><br>
+              <span class ="photo_text_explain">お客様が実装したい機能をヒアリングし、最小のコストでテストリリースができる仕様に落とし込みます。</span>
+            </div>
+          </div>
+          <div class ="photos_middle_p">
+            <%=image_tag "development.jpeg", class:"photos_image"%>
+            <div class ="photos_list">
+              <span class ="photo_text_title">開発</span><br><br>
+              <span class ="photo_text_explain">作成した仕様に基づきコーディンングを行います。保守のしやすい高品質なコードが当社の強みです。</span>
+            </div>
+          </div>
+          <div class ="photos_right_p">
+            <%=image_tag "marketing.jpeg", class:"photos_image"%>
+            <div class ="photos_list">
+              <span class ="photo_text_title">マーケティング</span><br><br>
+              <span class ="photo_text_explain">正式リリースしたアプリについては、ユーザー獲得の支援も承ります。</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

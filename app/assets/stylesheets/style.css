@@ -1,3 +1,4 @@
+/* ーー　トップページ　ーー */
 /* ---　ヘッダー　--- */
 .header {
   background-color: #DBDBDB;
@@ -89,4 +90,66 @@ footer{
 .footer_message{
   font-size: 16px;
   color: #959393;
+}
+
+/* ーーサービスページーー */
+/* ---　メイン　--- */
+
+.servise_main {
+  width: 100vw;
+}
+
+.servise_box_top_p {
+  display: flex;
+  justify-content: center;
+}
+
+.servise_box_top {
+  font-size: 64px;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.servise_box_bottom_p {
+  display: flex;
+  justify-content: center;
+}
+
+.servise_box_bottom {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 160px;
+}
+
+.photo_box {
+  height: 575px;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-around;
+  margin:0 100px 180px 100px;
+}
+
+.photo_text_title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.photo_text_explain{
+  font-size: 14px;
+}
+
+.photos_list {
+  height: 120px;
+  width: 350px;
+  background-color: #DADADA;
+  padding: 20px;
+  border-radius: 0 0 5px 5px;
+}
+
+.photos_image {
+  height: 275px;
+  width: 350px;
+  border-radius: 5px 5px 0 0;
 }
