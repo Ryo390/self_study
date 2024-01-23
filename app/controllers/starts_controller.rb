@@ -4,4 +4,7 @@ class StartsController < ApplicationController
 
   def service
   end
+
+  def news
+  end
 end
