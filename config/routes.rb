@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   resources :starts
   get "service/", to:"starts#service"
   get "news/", to:"starts#news"
+  get "contact/", to:"starts#contact"
 end
